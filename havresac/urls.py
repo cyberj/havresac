@@ -22,7 +22,7 @@ schema_view = get_swagger_view(title='Havresac API')
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
     path('api/doc/', schema_view),
     path('api/dice/', include('dice.urls')),
     path('api/', include('character.urls'))

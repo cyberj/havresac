@@ -15,7 +15,7 @@ router.register(r'skill', api.SkillViewSet)
 router.register(r'weapon', api.WeaponViewSet)
 router.register(r'item', api.ItemViewSet)
 router.register(r'ability', api.AbilityViewSet)
-router.register(r'user', api.UserViewSet)
+# router.register(r'user', api.UserViewSet)
 
 
 urlpatterns = [
