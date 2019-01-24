@@ -10,3 +10,4 @@ django-autoslug
 psycopg2>=2.7,<3.0
 django-environ
 django-rest-swagger
+django-cors-headers
